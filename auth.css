@@ -1,0 +1,63 @@
+.container{
+    width: 45vh;
+    padding: 30px;
+    color: white;
+    height: 100%;
+    bottom: 0;
+    right: 15px;
+    border-radius: 50px;
+    border: 3px solid white;
+    z-index: 9;
+}
+
+body {
+    background-color: #022f63;
+}
+
+form{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text], input[type=password] {
+    color: black;
+    width: 93%;
+    padding: 10px;
+    margin: 5px 0 30px 0;
+    display: inline-block;
+    border-style: solid;
+    background: white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: none;
+}
+
+h1 {
+    color: #3edffb;
+    text-align: center;
+    font-size: 50px;
+}
+
+span{
+    color: #3edffb;
+}
+
+.signinbtn {
+    font-size: 100%;
+    background-color: #3edffb;
+    color: rgb(62, 58, 58);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+.signinbtn:hover {
+    opacity:1;
+}

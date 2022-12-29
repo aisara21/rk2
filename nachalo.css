@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #022f63;
+}
+
+.main{
+    display: block;
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+.open-button:hover {
+    opacity:1;
+}
+.close-button {
+    opacity:1;
+}
+
+.openbtn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1{
+    margin: 10px;
+    justify-content: right;
+}
+.btn2{
+    margin: 10px;
+    justify-content: left;
+}
+
+.open-button {
+    
+    text-decoration: none;
+    font-size: 100%;
+    background-color: #3edffb;
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 15px;
+}  
+
+h1 {
+    color: #3edffb;
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.wholepage {
+    display: none;
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    color: #3edffb;
+    text-align: center;
+    font-size: 65px;
+}
+
+span{
+    color: #3edffb;
+}
+
+.RKtittle{
+    text-align: center;
+}
+p1{
+    color: white;
+    font-size: 35px;
+}
